@@ -31,7 +31,7 @@ game_images=[rock,paper,scissors]
 user_input = int(input("What do you choose? Type 0 for rock, 1 for paper and 2 for scissors: \n"))
 if user_input in range(0,2):
   print(game_images[user_input])
-  computer_choice = random.randint(0,2)
+  computer_choice = random.randint(0,3)
   print("The computer chose: ")
   print(game_images[computer_choice])
 else:
